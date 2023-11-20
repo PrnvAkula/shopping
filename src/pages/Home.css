@@ -1,0 +1,46 @@
+.introbox {
+    z-index: -100;
+    display: flex;
+    position: absolute;
+    height: 319px;
+    width: 528px;
+    top: 300px;
+    padding: 10px;
+    left: 63vw;
+    align-content: center;
+    font-size: 16px;
+    color: white;
+    background-color: #0d6efd;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+.intro{
+    display: flex;
+    position: absolute;
+    height: 319px;
+    width: 528px;
+    top: 300px;
+    align-items: center;
+    color: black;
+    padding: 10px;
+    left: 10vw;
+    z-index: -100;
+}
+
+.introtext{
+    font-size: 150px;
+    color: transparent;
+    -webkit-text-stroke: 2px #0d6efd;
+    background-color: transparent;
+    display: inline-block;
+}
+
+.InnerIntro{
+        position: absolute;
+        top: 43px;
+        left: 15px;
+        z-index: -101;
+        color: #0d6efd; /* Color of the inner text */
+        -webkit-text-stroke: 0; /* Reset the text-stroke for the inner text */
+}
