@@ -34,8 +34,17 @@
 }
 
 .item:hover{
-    transition: 0.3s ease-in;
+    transition: 1s ease-in;
 }
 
+.addtocart{
+    height:30px;
+    width:200px;
+    border-radius: 50px;
+    background-color: white;
+}
 
-
+.addtocart:hover{
+    background-color: black;
+    color: white;
+}

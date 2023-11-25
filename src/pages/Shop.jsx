@@ -7,7 +7,7 @@ import Navbar from './Navbar.jsx';
 const Shop = () => {
     return (
         <div>
-            <Navbar/>
+            
             <div className="shop">
                 <div className="shoptitle">
                     <h1>Shop</h1>
