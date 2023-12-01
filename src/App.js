@@ -6,6 +6,7 @@ import {ShopContextProvider} from './pages/ShopContextProvider.jsx';
 import Cart from './pages/cart.jsx';
 import Login from './pages/Login.jsx';
 import { useLocation } from 'react-router-dom';
+import Profile from './pages/profile.jsx';
 
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route path="/firstdraft" element={<Home />} />
             <Route path="/shop" element={<Shop />} />
             <Route path="/cart" element={<Cart />} />
+            <Route path="/profile" element={<Profile />} />
           </Routes>
         </Router>
       </ShopContextProvider>
