@@ -4,14 +4,17 @@ import Navbar from './pages/Navbar.jsx';
 import Shop from './pages/Shop.jsx';
 import {ShopContextProvider} from './pages/ShopContextProvider.jsx';
 import Cart from './pages/cart.jsx';
+import Login from './pages/Login.jsx';
+import { useLocation } from 'react-router-dom';
 
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 function App() {
+
   return (
     <div className="App">
       <ShopContextProvider>
         <Router>
-          <Navbar />
+          <Navbar/>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/firstdraft" element={<Home />} />
@@ -20,7 +23,6 @@ function App() {
           </Routes>
         </Router>
       </ShopContextProvider>
-
     </div>
   );
 }

@@ -1,46 +1,34 @@
-.introbox {
-    z-index: -100;
-    display: flex;
+
+
+.bgimg{
+    background-image: url(https://t4.ftcdn.net/jpg/04/29/97/39/360_F_429973962_6vMeg6RYgfFvKvBy6A2r8WlpOvFX9746.jpg) ;
+            margin: 100px 0;
+            padding: 0;
+            height: 60vh;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+            /* Add transparency to the background color */
+            background-color: rgba(255, 255, 255, 0); 
+}
+
+.maintxt .welcome {
     position: absolute;
-    height: 319px;
-    width: 528px;
-    top: 300px;
-    padding: 10px;
-    left: 63vw;
-    align-content: center;
-    font-size: 16px;
-    color: white;
-    background-color: #0d6efd;
-    border: 5px solid black;
-    border-radius: 15px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black; /* Set the text color */
+    font-size: 50px; /* Set the font size */
+    font-family: 'Arial', sans-serif; /* Set the font family */
 }
 
-.intro{
-    display: flex;
+.maintxt .description{
     position: absolute;
-    height: 319px;
-    width: 528px;
-    top: 300px;
-    align-items: center;
-    color: black;
-    padding: 10px;
-    left: 10vw;
-    z-index: -100;
-}
-
-.introtext{
-    font-size: 150px;
-    color: transparent;
-    -webkit-text-stroke: 2px #0d6efd;
-    background-color: transparent;
-    display: inline-block;
-}
-
-.InnerIntro{
-        position: absolute;
-        top: 43px;
-        left: 15px;
-        z-index: -101;
-        color: #0d6efd; /* Color of the inner text */
-        -webkit-text-stroke: 0; /* Reset the text-stroke for the inner text */
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black; /* Set the text color */
+    font-size: 20px; /* Set the font size */
+    font-family: 'Arial', sans-serif; /* Set the font family */
 }
